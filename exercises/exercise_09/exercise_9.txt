@@ -9,3 +9,7 @@ root of this project directory using node.
 Name the script 'start'. 
 
 Demonstrate how to run this script using npm.
+
+Added "start" : "node index.js"
+
+npm run start

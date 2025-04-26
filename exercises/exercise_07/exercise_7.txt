@@ -7,3 +7,7 @@ Explain the difference between installing a package
 with ^1.0.0, ~1.0.0, and 1.0.0 in the package.json dependencies. 
 
 What do these version specifiers mean?
+
+1.0.0 means it must match version exactly
+~1.0.0 means it must be approximately equivalent to version → patch level changes 
+^1.0.0 means it must be compatible with version → minor and patch changes
